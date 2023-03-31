@@ -1,0 +1,498 @@
+[
+  {
+    "timestamp_from": 1679898600,
+    "timestamp_to": 1679905800,
+    "CodiceAula": "51440",
+    "NomeAula": "Pe",
+    "name": "COMMUNICATIONS NETWORK",
+    "orario": "08:30 - 10:30"
+  },
+  {
+    "timestamp_from": 1679898600,
+    "timestamp_to": 1679905800,
+    "CodiceAula": "51445",
+    "NomeAula": "Ve",
+    "name": "INGEGNERIA DEI SISTEMI BIOLOGICI (NUMEROSITA' CANALE 1)",
+    "orario": "08:30 - 10:30"
+  },
+  {
+    "timestamp_from": 1679898600,
+    "timestamp_to": 1679905800,
+    "CodiceAula": "51438",
+    "NomeAula": "Ee",
+    "name": "INDUSTRIAL AUTOMATION",
+    "orario": "08:30 - 10:30"
+  },
+  {
+    "timestamp_from": 1679898600,
+    "timestamp_to": 1679905800,
+    "CodiceAula": "51304",
+    "NomeAula": "Ce",
+    "name": "BIOMARKERS, PRECISION MEDICINE AND DRUG DEVELOPMENT",
+    "orario": "08:30 - 10:30"
+  },
+  {
+    "timestamp_from": 1679898600,
+    "timestamp_to": 1679905800,
+    "CodiceAula": "51437",
+    "NomeAula": "Fe",
+    "name": "QUANTUM INFORMATION AND COMPUTING",
+    "orario": "08:30 - 10:30"
+  },
+  {
+    "timestamp_from": 1679898600,
+    "timestamp_to": 1679905800,
+    "CodiceAula": "51436",
+    "NomeAula": "Ae",
+    "name": "WEB APPLICATIONS - Tutorship",
+    "orario": "08:30 - 10:30"
+  },
+  {
+    "timestamp_from": 1679898600,
+    "timestamp_to": 1679909400,
+    "CodiceAula": "51444",
+    "NomeAula": "SALETTA VERDE",
+    "name": "CONVERSIONE STATICA DELL'ENERGIA ELETTRICA",
+    "orario": "08:30 - 11:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51436",
+    "NomeAula": "Ae",
+    "name": "TECNOLOGIA E STRUMENTAZIONE BIOMEDICA (NUMEROSITA' CANALE 1)",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51306",
+    "NomeAula": "Le",
+    "name": "TECNOLOGIA E STRUMENTAZIONE BIOMEDICA (NUMEROSITA' CANALE 2)",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51442",
+    "NomeAula": "Me",
+    "name": "PROPAGAZIONE GUIDATA E DISPOSITIVI",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51438",
+    "NomeAula": "Ee",
+    "name": "CIRCUITI INTEGRATI",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51437",
+    "NomeAula": "Fe",
+    "name": "NONLINEAR SYSTEMS AND CONTROL",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51440",
+    "NomeAula": "Pe",
+    "name": "SMART GRIDS",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51445",
+    "NomeAula": "Ve",
+    "name": "FONDAMENTI DI ELETTRONICA (NUMEROSITA' CANALE 1)",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51447",
+    "NomeAula": "Be",
+    "name": "SEGNALI E SISTEMI (NUMEROSITA' CANALE 2)",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51304",
+    "NomeAula": "Ce",
+    "name": "CARDIOVASCULAR FLOWS MODELLING",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51435",
+    "NomeAula": "Ke",
+    "name": "IMAGING FOR NEUROSCIENCE",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51305",
+    "NomeAula": "De",
+    "name": "COMPUTER VISION (MOD. B)",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "51439",
+    "NomeAula": "Oe",
+    "name": "OPTICAL NETWORKS",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "53735",
+    "NomeAula": "Ue",
+    "name": "COMPUTER VISION",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679905800,
+    "timestamp_to": 1679913000,
+    "CodiceAula": "53734",
+    "NomeAula": "Te",
+    "name": "COMPUTER VISION",
+    "orario": "10:30 - 12:30"
+  },
+  {
+    "timestamp_from": 1679907600,
+    "timestamp_to": 1679911200,
+    "CodiceAula": "51448",
+    "NomeAula": "RIUNIONI DEI/G 405b",
+    "name": "Meeting Vandin",
+    "orario": "11:00 - 12:00"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51442",
+    "NomeAula": "Me",
+    "name": "LABORATORIO DI AUTOMATICA",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51436",
+    "NomeAula": "Ae",
+    "name": "ALGORITMI PER L' INGEGNERIA",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51304",
+    "NomeAula": "Ce",
+    "name": "BIOMEDICAL WEARABLE TECHNOLOGIES FOR HEALTHCARE AND WELLBEING",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51437",
+    "NomeAula": "Fe",
+    "name": "AUTOMOTIVE AND DOMOTICS",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51447",
+    "NomeAula": "Be",
+    "name": "SEGNALI E SISTEMI (NUMEROSITA' CANALE 1)",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51435",
+    "NomeAula": "Ke",
+    "name": "BIOINGEGNERIA CELLULARE E DEI TESSUTI",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51305",
+    "NomeAula": "De",
+    "name": "ARTIFICIAL INTELLIGENCE",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51440",
+    "NomeAula": "Pe",
+    "name": "VISIBLE-LIGHT AND METASURFACES COMMUNICATIONS",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51439",
+    "NomeAula": "Oe",
+    "name": "VIDEO COMMUNICATION AND USER EXPERIENCE",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51438",
+    "NomeAula": "Ee",
+    "name": "ANALOGUE INTEGRATED CIRCUIT DESIGN",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51306",
+    "NomeAula": "Le",
+    "name": "ESTIMATION AND FILTERING",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "51445",
+    "NomeAula": "Ve",
+    "name": "INFORMATICA MEDICA",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "100186",
+    "NomeAula": "Laboratorio Misure Elettroniche",
+    "name": "AUTOMOTIVE AND DOMOTICS",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679913000,
+    "timestamp_to": 1679920200,
+    "CodiceAula": "100187",
+    "NomeAula": "Laboratorio Progettazione Elettronica",
+    "name": "AUTOMOTIVE AND DOMOTICS",
+    "orario": "12:30 - 14:30"
+  },
+  {
+    "timestamp_from": 1679918400,
+    "timestamp_to": 1679922000,
+    "CodiceAula": "51448",
+    "NomeAula": "RIUNIONI DEI/G 405b",
+    "name": "Meeting studenti Vandin",
+    "orario": "14:00 - 15:00"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "51438",
+    "NomeAula": "Ee",
+    "name": "LABORATORIO DI MICROELETTRONICA",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "51436",
+    "NomeAula": "Ae",
+    "name": "MECCANICA DEI MATERIALI",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "51447",
+    "NomeAula": "Be",
+    "name": "INTELLIGENZA ARTIFICIALE",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "53734",
+    "NomeAula": "Te",
+    "name": "CONTROL OF BIOLOGICAL SYSTEMS",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "51439",
+    "NomeAula": "Oe",
+    "name": "ANTENNAS AND WIRELESS PROPAGATION",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "51445",
+    "NomeAula": "Ve",
+    "name": "FONDAMENTI DI ELETTRONICA (NUMEROSITA' CANALE 2)",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "51304",
+    "NomeAula": "Ce",
+    "name": "TEORIA DEI CIRCUITI (A)",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "51305",
+    "NomeAula": "De",
+    "name": "BIG DATA COMPUTING (A)",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "51306",
+    "NomeAula": "Le",
+    "name": "BIG DATA COMPUTING (B)",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "51442",
+    "NomeAula": "Me",
+    "name": "CONTROL ENGINEERING LABORATORY",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "51437",
+    "NomeAula": "Fe",
+    "name": "MICROELECTRONICS AND GLOBALIZATION",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679920200,
+    "timestamp_to": 1679927400,
+    "CodiceAula": "53735",
+    "NomeAula": "Ue",
+    "name": "CONTROL OF BIOLOGICAL SYSTEMS",
+    "orario": "14:30 - 16:30"
+  },
+  {
+    "timestamp_from": 1679922000,
+    "timestamp_to": 1679929200,
+    "CodiceAula": "51446",
+    "NomeAula": "RIUNIONI DEI/G 318",
+    "name": "IE_TSK 1. Python programming for Data Science and Engineering - (Prof. Tortora)",
+    "orario": "15:00 - 17:00"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51435",
+    "NomeAula": "Ke",
+    "name": "TECNOLOGIA E STRUMENTAZIONE BIOMEDICA (NUMEROSITA' CANALE 1 e 2) - TUTORATO",
+    "orario": "16:30 - 18:30"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51447",
+    "NomeAula": "Be",
+    "name": "PROGRAMMAZIONE DI SISTEMI EMBEDDED",
+    "orario": "16:30 - 18:30"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51439",
+    "NomeAula": "Oe",
+    "name": "MICROCONTROLLORI E DSP",
+    "orario": "16:30 - 18:30"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51438",
+    "NomeAula": "Ee",
+    "name": "MEDICAL BIG DATA SOURCES AND CLINICAL DECISION SUPPORT SYSTEMS",
+    "orario": "16:30 - 18:30"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51445",
+    "NomeAula": "Ve",
+    "name": "INGEGNERIA DEI SISTEMI BIOLOGICI (NUMEROSITA' CANALE 2)",
+    "orario": "16:30 - 18:30"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51304",
+    "NomeAula": "Ce",
+    "name": "FONDAMENTI DI CONTROLLI AUTOMATICI (A)",
+    "orario": "16:30 - 18:30"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51437",
+    "NomeAula": "Fe",
+    "name": "BIOPHOTONICS",
+    "orario": "16:30 - 18:30"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51305",
+    "NomeAula": "De",
+    "name": "ROBOTICS AND CONTROL 1",
+    "orario": "16:30 - 18:30"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51440",
+    "NomeAula": "Pe",
+    "name": "PARALLEL COMPUTING",
+    "orario": "16:30 - 18:30"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51441",
+    "NomeAula": "Ne",
+    "name": "GEOGRAPHIC INFORMATION SYSTEMS",
+    "orario": "16:30 - 18:30"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51306",
+    "NomeAula": "Le",
+    "name": "MICROELECTRONICS",
+    "orario": "16:30 - 18:30"
+  },
+  {
+    "timestamp_from": 1679927400,
+    "timestamp_to": 1679934600,
+    "CodiceAula": "51444",
+    "NomeAula": "SALETTA VERDE",
+    "name": "LEDS",
+    "orario": "16:30 - 18:30"
+  }
+]

@@ -39,39 +39,36 @@ class Room {
    * @param {int} startTime the epoch of the initial time.
    * @param {int} endTime the epoch of the final time.
    */
-  addLesson(startTime, endTime) {
-    const newFreeHours = [];
-
-    // Where can I insert the lesson?
-    let startIndex = 0;
-
-    for (; this.freeHours[startIndex] < startTime; startIndex++);
-
-    let endIndex = startIndex;
-
-    for (; this.freeHours[endIndex] < endTime; endIndex++);
-
-    for (let i = 0; i < startIndex; i++) {
-      newFreeHours.push(this.freeHours[i]);
+  addLesson(S, E) {
+    for (let i = 0; i < this.freeHours.length - 1; i += 2) {
+      if (this.freeHours[i] < S && this.freeHours[i+1] > S && this.freeHours[i+1] <= E) {
+        // Partially sovrapposed, it is needed to adjust the upper bound
+        this.freeHours.splice(i+1, 1, S);
+      } else if (this.freeHours[i] < S && this.freeHours[i+1] > E) {
+        // This lesson divided in two my free slot
+        const temp = this.freeHours[i+1];
+        this.freeHours.splice(i+1, 1, S, E, temp);
+      } else if (this.freeHours[i] == S && this.freeHours[i+1] <= E) {
+        // This lesson completely covers this free time
+        this.freeHours.splice(i, 2);
+        i -= 2;
+      } else if (this.freeHours[i] == S && this.freeHours[i+1] > E) {
+        // This lesson partially obscures this freetime, only at the end something is left
+        const temp = this.freeHours[i+1];
+        this.freeHours.splice(i, 2, E, temp);
+      } else if (this.freeHours[i] > S && this.freeHours[i+1] == E) {
+        // This lesson completely covers this free time
+        this.freeHours.splice(i, 2);
+        i -= 2;
+      } else if (this.freeHours[i] > S && this.freeHours[i] < E && this.freeHours[i+1] > E) {
+        // This lesson partially cover this free time, some time is left at the end
+        const temp = this.freeHours[i+1];
+        this.freeHours.splice(i, 2, E, temp);
+      } else if (this.freeHours[i] >= E) {
+        // I am looking too far, no free slots from now on is any of my business
+        break;
+      }
     }
-    newFreeHours.push(startTime);
-
-    if (startIndex == endIndex) {
-      newFreeHours.push(endTime);
-    }
-
-    for (let i = endIndex; i < this.freeHours.length; i++) {
-      newFreeHours.push(this.freeHours[i]);
-    }
-
-    if (this.roomName == 'Ke') {
-      console.log(`Iteration ${startTime} ${endTime}`);
-      console.log(`${startIndex} ${endIndex}`);
-      console.log(this.freeHours);
-      console.log(newFreeHours);
-    }
-
-    this.freeHours = newFreeHours;
   }
 }
 

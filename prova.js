@@ -52,7 +52,7 @@ let giorno = new Date().toLocaleDateString('it-IT', {
 }).replace(/\//g, '-');
 const sede = '00280'; // Polo Gradenigo
 
-giorno = '27-03-2023';
+giorno = '31-03-2023';
 
 
 getData(giorno, sede).then((data) => {
@@ -67,6 +67,12 @@ getData(giorno, sede).then((data) => {
     };
   });
 
+  fs.writeFileSync('./data.json', JSON.stringify(events, null, 2), (err) => {
+    if (err) {
+      console.log(err);
+    }
+  });
+
   // Testing
   const map = new Map();
   // eslint-disable-next-line guard-for-in
@@ -79,17 +85,13 @@ getData(giorno, sede).then((data) => {
         .addLesson(events[lesson].timestamp_from, events[lesson].timestamp_to);
   }
 
-  fs.writeFile('available.json',
+
+  fs.writeFileSync('available.json',
       JSON.stringify(Object.fromEntries(map), null, 2), (err) => {
         if (err) {
           console.log(err);
         }
       });
 
-  fs.writeFile('data.json', JSON.stringify(events, null, 2), (err) => {
-    if (err) {
-      console.log(err);
-    }
-  });
   return events;
 });

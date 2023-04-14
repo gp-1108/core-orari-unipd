@@ -52,7 +52,7 @@ let giorno = new Date().toLocaleDateString('it-IT', {
 }).replace(/\//g, '-');
 const sede = '00280'; // Polo Gradenigo
 
-giorno = '31-03-2023';
+// giorno = '31-03-2023';
 
 
 getData(giorno, sede).then((data) => {

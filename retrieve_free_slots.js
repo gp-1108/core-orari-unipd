@@ -39,7 +39,6 @@ async function getData(date, locationCode) {
 
   try {
     const response = await axios(config);
-    console.log(response);
     // const decompressedData = zlib.gunzipSync(response.data).toString('utf-8');
     return response.data;
   } catch (err) {

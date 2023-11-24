@@ -3,5 +3,8 @@
     "axios": "^1.2.0",
     "eslint": "^8.36.0",
     "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "zlib": "^1.0.5"
   }
 }

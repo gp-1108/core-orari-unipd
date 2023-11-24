@@ -1,8 +1,13 @@
+/* eslint-disable max-len */
 /**
  * This class represents a room in the EasyStaff app.
  * The room is defined by its code, name and the free hours.
  * There are specified methods to add and remove free hours,
  * do not use them directly.
+  * The members of the class are:
+  * - roomCode: the code of the room
+  * - roomName: the name of the room
+  * - freeHours: an array of free hours, in the format [start, end, start, end, ...] (seconds epochs italian time)
  */
 class Room {
   /**
@@ -18,9 +23,10 @@ class Room {
     const end = new Date(`${date}T18:30:00`);
     this.roomCode = roomCode;
     this.roomName = roomName;
+    // Dividing by 1000 to get seconds
     this.freeHours = [
-      Math.floor(start.getTime() / 1000),
-      Math.floor(end.getTime() / 1000),
+      start.getTime() / 1000,
+      end.getTime() / 1000,
     ];
   }
 
@@ -36,8 +42,8 @@ class Room {
   /**
    * This methods adds a lesson to the room,
    * removing the free hours.
-   * @param {int} startTime the epoch of the initial time.
-   * @param {int} endTime the epoch of the final time.
+   * @param {int} S the epoch of the initial time.
+   * @param {int} E the epoch of the final time.
    */
   addLesson(S, E) {
     for (let i = 0; i < this.freeHours.length - 1; i += 2) {

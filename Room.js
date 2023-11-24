@@ -76,6 +76,25 @@ class Room {
       }
     }
   }
+
+  /**
+   * This method checks if the room is available at the given date.
+   * (It is meant to be used with the output of the function retrieveSlots)
+   * @param {Date} date A JS Date object for which
+   * you want to know if the room is available
+   * @return {boolean} True if the room is available at the given date, false otherwise
+   */
+  isAvailableAt(date) {
+    // Dividing by 1000 to get seconds
+    const dateEpoch = date.getTime() / 1000;
+
+    for (let i = 0; i < this.freeHours.length - 1; i += 2) {
+      if (this.freeHours[i] <= dateEpoch && this.freeHours[i+1] >= dateEpoch) {
+        return true;
+      }
+    }
+    return false;
+  }
 }
 
 module.exports = Room;

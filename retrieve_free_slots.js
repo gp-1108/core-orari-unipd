@@ -12,7 +12,7 @@ const Room = require('./Room.js');
  */
 async function getData(date, locationCode) {
   // eslint-disable-next-line max-len
-  const data = `form-type=rooms&view=rooms&include=rooms&aula=&sede=${sede}&date=${giorno}&_lang=en&list=&week_grid_type=-1&ar_codes_=&ar_select_=&col_cells=0&empty_box=0&only_grid=0&highlighted_date=0&all_events=0&_lang=en`;
+  const data = `form-type=rooms&view=rooms&include=rooms&aula=&sede=${locationCode}&date=${date}&_lang=en&list=&week_grid_type=-1&ar_codes_=&ar_select_=&col_cells=0&empty_box=0&only_grid=0&highlighted_date=0&all_events=0&_lang=en`;
 
 
   const config = {
@@ -33,14 +33,15 @@ async function getData(date, locationCode) {
       'Pragma': 'no-cache',
       'Cache-Control': 'no-cache',
     },
-    responseType: 'arraybuffer', // Axios is not able to decompress the response
+    // responseType: 'arraybuffer', // Axios is not able to decompress the response
     data: data,
   };
 
   try {
     const response = await axios(config);
-    const decompressedData = zlib.gunzipSync(response.data).toString('utf-8');
-    return JSON.parse(decompressedData);
+    console.log(response);
+    // const decompressedData = zlib.gunzipSync(response.data).toString('utf-8');
+    return response.data;
   } catch (err) {
     console.log(err);
     return null;
@@ -86,7 +87,7 @@ async function retrieveSlots(date, locationCode) {
   for (lesson in events) {
     if (!map.has(events[lesson].CodiceAula)) {
       map.set(events[lesson].CodiceAula,
-          new Room(events[lesson].CodiceAula, events[lesson].NomeAula, giorno));
+          new Room(events[lesson].CodiceAula, events[lesson].NomeAula, date));
     }
     map.get(events[lesson].CodiceAula)
         .addLesson(events[lesson].timestamp_from, events[lesson].timestamp_to);
